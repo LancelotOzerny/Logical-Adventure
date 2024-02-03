@@ -3,27 +3,24 @@ using YG;
 
 public class CGameScene : CSceneManager
 {
-    public int lastScene = 0;
-
-    private void Awake()
+    public int Last
     {
-        LoadLast();
-
-        if (lastScene < Current)
+        get
         {
-            lastScene = Current;
-            SaveLast();
+            return YandexGame.savesData.lastScene;
+        }
+        set
+        {
+            YandexGame.savesData.lastScene = value;
+            YandexGame.SaveProgress();
         }
     }
 
-    public void SaveLast()
+    public void OpenLast()
     {
-        YandexGame.savesData.lastScene = lastScene;
-        YandexGame.SaveProgress();
-    }
-
-    public void LoadLast()
-    {
-        lastScene = YandexGame.savesData.lastScene;
+        if (Current != Last)
+        {
+            OpenSceneByIndex(Last);
+        }
     }
 }
