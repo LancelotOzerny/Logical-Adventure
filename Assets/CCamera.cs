@@ -5,7 +5,7 @@ using UnityEngine;
 public class CCamera : MonoBehaviour
 {
     [SerializeField] private GameObject target;
-    [SerializeField] private float speed = 4f;
+    [SerializeField][Range(0, 1)] private float speed = 0.025f;
     [SerializeField] private bool freezeX;
     [SerializeField] private bool freezeY;
 
@@ -35,13 +35,13 @@ public class CCamera : MonoBehaviour
         Pos = TargetPos;
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         if (target == null)
         {
             return;
         }
 
-        Pos = Vector3.Lerp(Pos, TargetPos, speed * Time.deltaTime);
+        Pos = Vector3.Lerp(Pos, TargetPos, speed);
     }
 }
