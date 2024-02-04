@@ -407,7 +407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 183}
+  m_AnchoredPosition: {x: -350, y: 183}
   m_SizeDelta: {x: 1029.98, y: 173.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318729229
@@ -443,7 +443,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u042D\u0442\u043E \u0434\u0435\u0436\u0430\u0432\u044E?"
+  m_Text: "\u0421\u043D\u0430\u0440\u044F\u0434\u0430 \u0434\u0432\u0430, \u0430
+    \u0432\u043E\u0440\u043E\u043D\u043A\u0430 \u043E\u0434\u043D\u0430?"
 --- !u!222 &1318729230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -539,7 +540,7 @@ Transform:
   m_GameObject: {fileID: 1327433949}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.82, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -561,6 +562,8 @@ MonoBehaviour:
   speed: 0.025
   freezeX: 0
   freezeY: 1
+  minX: -4
+  maxX: 0
 --- !u!1001 &1373989660
 PrefabInstance:
   m_ObjectHideFlags: 0

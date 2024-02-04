@@ -9,6 +9,8 @@ public class CCamera : MonoBehaviour
     [SerializeField] private bool freezeX;
     [SerializeField] private bool freezeY;
 
+    [SerializeField] private float minX = -100;
+    [SerializeField] private float maxX = 100;
     private Vector3 Pos 
     { 
         get => transform.position; 
@@ -17,11 +19,26 @@ public class CCamera : MonoBehaviour
 
     private Vector3 TargetPos
     {
-        get => new Vector3(
-            freezeX ? Pos.x : target.transform.position.x,
-            freezeY ? Pos.y: target.transform.position.y,
-            Pos.z
-        );
+        get
+        {
+            Vector3 result = new Vector3(
+                freezeX ? Pos.x : target.transform.position.x,
+                freezeY ? Pos.y : target.transform.position.y,
+                Pos.z
+            );
+
+            if (result.x < minX)
+            {
+                result.x = minX;
+            }
+
+            if (result.x > maxX)
+            {
+                result.x = maxX;
+            }
+
+            return result;
+        }
         set => target.transform.position = value;
     }
 

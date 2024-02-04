@@ -500,7 +500,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u042D\u0442\u043E \u0434\u0435\u0436\u0430\u0432\u044E?"
+  m_Text: "\u041D\u0435\u0442... \u042D\u0442\u043E \u044F\u0432\u043D\u043E \u043D\u0435
+    \u043A\u043B\u044B\u043A\u0438..."
 --- !u!222 &1318729230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -618,6 +619,8 @@ MonoBehaviour:
   speed: 0.025
   freezeX: 0
   freezeY: 1
+  minX: -4
+  maxX: 0
 --- !u!1001 &1373989660
 PrefabInstance:
   m_ObjectHideFlags: 0
