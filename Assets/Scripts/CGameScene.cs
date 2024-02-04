@@ -3,6 +3,14 @@ using YG;
 
 public class CGameScene : CSceneManager
 {
+    private void Start()
+    {
+        if (Last < Current)
+        {
+            Last = Current;
+        }
+    }
+
     public int Last
     {
         get
