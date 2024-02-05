@@ -1665,8 +1665,12 @@ PrefabInstance:
       value: Destroyer
       objectReference: {fileID: 0}
     - target: {fileID: 7866061807339980072, guid: 7aa523d19d9d8714dae969f014f02a3d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 57.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866061807339980072, guid: 7aa523d19d9d8714dae969f014f02a3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7866061807339980072, guid: 7aa523d19d9d8714dae969f014f02a3d, type: 3}
       propertyPath: m_LocalPosition.y
