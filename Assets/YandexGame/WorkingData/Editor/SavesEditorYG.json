@@ -1,10 +1,10 @@
 {
-    "idSave": 273,
+    "idSave": 280,
     "isFirstSession": false,
-    "language": "en",
+    "language": "tr",
     "promptDone": false,
     "lastScene": 15,
     "hindCount": 1,
-    "langIndex": 2,
-    "musicOn": true
+    "langIndex": 0,
+    "musicOn": false
 }
