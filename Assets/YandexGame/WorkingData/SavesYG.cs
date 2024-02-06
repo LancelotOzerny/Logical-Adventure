@@ -12,6 +12,7 @@ namespace YG
 
         public int lastScene = 0;
         public int hindCount = 1;
+        public int langIndex = 0;
 
         public SavesYG()
         {
