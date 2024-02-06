@@ -494,30 +494,29 @@ MonoBehaviour:
     Lancy-Studio.ru"
   en: '<color=#F4D78E>Players, welcome to the game!</color>
 
-    
 
-    The game
-    is at the initial stage of its development. Whether there will be a sequel (new
-    levels, traps, textures, shop, etc.), its update, depends only on you - just
-    let me know that you are interested in the game through a review and comments
-    of the game.
 
-    
+    The game is at
+    the initial stage of its development. Whether there will be a sequel (new levels,
+    traps, textures, shop, etc.), its update, depends only on you - just let me know
+    that you are interested in the game through a review and comments of the game.
 
-    The more reviews there are that you liked the game,
-    the more time and effort I will spend on it.
 
-    
 
-    If, on the contrary,
-    the game did not please you in some way, then please do not write meaningless
-    comments like "I have not seen a worse game" - write what its drawback is so
-    that i can learn from my mistakes and not show them to you again.
+    The
+    more reviews there are that you liked the game, the more time and effort I will
+    spend on it.
 
-    
 
-    Sincerely,
-    the game developer, Lancy-Studio.ru'
+
+    If, on the contrary, the game did not please you in some
+    way, then please do not write meaningless comments like "I have not seen a worse
+    game" - write what its drawback is so that i can learn from my mistakes and not
+    show them to you again.
+
+
+
+    Sincerely, the game developer, Lancy-Studio.ru'
   tr: "<color=#F4D78E>Oyuncular, oyuna ho\u015F geldiniz!</color>\r\n\r\nOyun geli\u015Fiminin
     ilk a\u015Famas\u0131ndad\u0131r. Devam edip etmeyece\u011Fi (yeni seviyeler,
     tuzaklar, dokular, ma\u011Faza vb.), g\xFCncellemesi size kalm\u0131\u015F -
@@ -2842,11 +2841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4219822744552332667, guid: 02e985207eb92034384533f761880419, type: 3}
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenLast
+      value: OpenNextScene
       objectReference: {fileID: 0}
     - target: {fileID: 4219822744552332667, guid: 02e985207eb92034384533f761880419, type: 3}
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CGameScene, Assembly-CSharp
+      value: Lancy.Tools.CSceneManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4219822744552332667, guid: 02e985207eb92034384533f761880419, type: 3}
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

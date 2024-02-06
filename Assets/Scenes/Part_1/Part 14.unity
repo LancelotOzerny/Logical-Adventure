@@ -670,7 +670,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4657332782423237651, guid: f198bf2e5dcbcc5418707ec2c1a60de8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 8.25
       objectReference: {fileID: 0}
     - target: {fileID: 4657332782423237651, guid: f198bf2e5dcbcc5418707ec2c1a60de8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1052,6 +1052,7 @@ GameObject:
   - component: {fileID: 1318729228}
   - component: {fileID: 1318729230}
   - component: {fileID: 1318729229}
+  - component: {fileID: 1318729231}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -1111,8 +1112,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u043C \u043D\u0430\u0441\u043A\u043E\u043B\u044C\u043A\u043E
-    \u0442\u044B \u0433\u0438\u043F\u0435\u0440\u0430\u043A\u0442\u0438\u0432\u0435\u043D?"
+  m_Text: "\u042F \u043F\u0440\u043E\u0448\u0435\u043B \u044D\u0442\u043E \u0437\u0430
+    3 \u043F\u043E\u043F\u044B\u0442\u043A\u0438!"
 --- !u!222 &1318729230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1121,6 +1122,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318729227}
   m_CullTransparentMesh: 1
+--- !u!114 &1318729231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318729227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textLComponent: {fileID: 1318729229}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u042F \u043F\u0440\u043E\u0448\u0435\u043B \u044D\u0442\u043E \u0437\u0430
+    3 \u043F\u043E\u043F\u044B\u0442\u043A\u0438!"
+  en: I passed it in 3 attempts!
+  tr: "Bunu 3 denemede ge\xE7tim!"
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!1 &1327433949
 GameObject:
   m_ObjectHideFlags: 0
