@@ -15,8 +15,19 @@ public class CDevelop : MonoBehaviour
     [SerializeField] private Text tv = null;
     [SerializeField] private Text lastLevel = null;
 
-
     private void OnEnable()
+    {
+        Display();
+    }
+    public void Reset()
+    {
+        YandexGame.savesData.lastScene = 1;
+        YandexGame.savesData.musicOn = true;
+
+        YandexGame.SaveProgress();
+    }
+
+    public void Display()
     {
         if (mobile != null)
         {

@@ -10,7 +10,7 @@ namespace YG
         public string language = "ru";
         public bool promptDone;
 
-        public int lastScene = 0;
+        public int lastScene = 1;
         public int hindCount = 1;
         public int langIndex = -1;
         public bool musicOn = true;
