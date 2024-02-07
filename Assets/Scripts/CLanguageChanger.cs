@@ -29,7 +29,7 @@ public class CLanguageChanger : MonoBehaviour
                 }
             }
         }
-
+        YandexGame.SaveProgress();
         YandexGame.SwitchLanguage(language[YandexGame.savesData.langIndex]);
     }
 
