@@ -13,6 +13,7 @@ public class CDevelop : MonoBehaviour
     [SerializeField] private Text mobile = null;
     [SerializeField] private Text tablet = null;
     [SerializeField] private Text tv = null;
+    [SerializeField] private Text lastLevel = null;
 
 
     private void OnEnable()
@@ -53,6 +54,10 @@ public class CDevelop : MonoBehaviour
         if (reviewCanShow != null)
         {
             reviewCanShow.text = YandexGame.EnvironmentData.reviewCanShow ? "Yes" : "No";
+        }
+        if (lastLevel != null)
+        {
+            lastLevel.text = YandexGame.savesData.lastScene.ToString();
         }
     }
 }
