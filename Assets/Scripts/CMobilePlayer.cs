@@ -3,9 +3,14 @@ using YG;
 
 public class CMobilePlayer : CUnit
 {
+    string Device
+    {
+        get => YandexGame.EnvironmentData.deviceType.ToLower();
+    }
+
     private new void Awake()
     {
-        if (Application.isMobilePlatform == false)
+        if (Device != "mobile" && Device != "tablet")
         {
             Destroy(this);
         }

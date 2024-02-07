@@ -1,10 +1,16 @@
 using UnityEngine;
+using YG;
 
 public class CDesktopPlayer : CUnit
 {
+    string Device
+    {
+        get => YandexGame.EnvironmentData.deviceType.ToLower();
+    }
+
     private new void Awake()
     {
-        if (Application.isMobilePlatform)
+        if (Device != "desktop" && Device != "tv")
         {
             Destroy(this);
         }
