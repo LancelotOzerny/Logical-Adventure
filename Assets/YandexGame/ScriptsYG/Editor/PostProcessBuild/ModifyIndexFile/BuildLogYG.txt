@@ -1,2 +1,2 @@
-Build path: P:/Unity/LogicalAdventure/Builds/TestMobile
-Build number: 142
+Build path: P:/Unity/LogicalAdventure/Builds/Develop
+Build number: 143
