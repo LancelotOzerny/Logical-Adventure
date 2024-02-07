@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 3895530108819558423}
   - component: {fileID: 3478613768568374055}
   - component: {fileID: 654931607332300302}
-  - component: {fileID: 3157876519027436944}
+  - component: {fileID: 128508013215252110}
+  - component: {fileID: 2222190064807992430}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -159,7 +160,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3157876519027436944
+--- !u!114 &128508013215252110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146485173303717887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdc62a5950d30c4f8ce7f4e6af6ae56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 8
+  offset: {x: 0, y: -0.1}
+  radius: 0.45
+  isContacted: 1
+  movementSpeed: 5
+  jumpPower: 12
+  unitName: Player
+--- !u!114 &2222190064807992430
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +197,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   offset: {x: 0, y: -0.1}
-  radius: 0.5
+  radius: 0.45
   isContacted: 1
   movementSpeed: 5
   jumpPower: 12

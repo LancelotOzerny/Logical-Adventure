@@ -8,6 +8,9 @@ public class CImageButton : MonoBehaviour,
                             IPointerClickHandler
 {
     [SerializeField] private UnityEvent clickEvent;
+    [SerializeField] private UnityEvent downEvent;
+    [SerializeField] private UnityEvent upEvent;
+
     [SerializeField] private RectTransform shadow;
     [SerializeField] private float yOffset;
 
@@ -36,10 +39,12 @@ public class CImageButton : MonoBehaviour,
     public void OnPointerDown(PointerEventData eventData)
     {
         Pos = new Vector2(Pos.x, Pos.y - yOffset);
+        downEvent.Invoke();
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         Pos = StartPos;
+        upEvent.Invoke();
     }
 }
