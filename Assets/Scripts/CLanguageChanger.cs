@@ -17,6 +17,19 @@ public class CLanguageChanger : MonoBehaviour
 
     private void Start()
     {
+        if (LangIndex == -1)
+        {
+            LangIndex = 0;
+
+            for (int i = 0; i < language.Length; i++)
+            {
+                if (language[i].ToLower() == YandexGame.lang.ToLower())
+                {
+                    LangIndex = i;
+                }
+            }
+        }
+
         YandexGame.SwitchLanguage(language[YandexGame.savesData.langIndex]);
     }
 
