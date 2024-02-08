@@ -9046,6 +9046,10 @@ PrefabInstance:
       value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 7203580830979699045, guid: 9b851cbf5b9f29e408370346c6a254ef, type: 3}
+      propertyPath: m_Text
+      value: Logical Adventure
+      objectReference: {fileID: 0}
+    - target: {fileID: 7203580830979699045, guid: 9b851cbf5b9f29e408370346c6a254ef, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
