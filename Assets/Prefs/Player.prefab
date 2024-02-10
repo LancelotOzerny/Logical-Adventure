@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.9607843, g: 0.84705883, b: 0.56078434, a: 1}
   m_FlipX: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
     m_Bits: 8
   offset: {x: 0, y: -0.1}
   radius: 0.45
-  isContacted: 0
+  isContacted: 1
   movementSpeed: 5
   jumpPower: 12
   unitName: Player
@@ -154,7 +154,7 @@ MonoBehaviour:
     m_Bits: 8
   offset: {x: 0, y: -0.1}
   radius: 0.45
-  isContacted: 0
+  isContacted: 1
   movementSpeed: 5
   jumpPower: 12
   unitName: Player
@@ -190,9 +190,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.002338767, y: -0.0024780035}
-  m_Size: {x: 1.0016844, y: 1.0120237}
-  m_Direction: 0
+  m_Offset: {x: -0.000000055641518, y: -0.46675494}
+  m_Size: {x: 1.0106766, y: 0.08783037}
+  m_Direction: 1
 --- !u!61 &4320819958631606866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -225,7 +225,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.04000783}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -236,5 +236,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.91998434}
   m_EdgeRadius: 0
