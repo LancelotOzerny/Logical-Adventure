@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CCamera : MonoBehaviour
@@ -11,6 +9,7 @@ public class CCamera : MonoBehaviour
 
     [SerializeField] private float minX = -100;
     [SerializeField] private float maxX = 100;
+
     private Vector3 Pos 
     { 
         get => transform.position; 

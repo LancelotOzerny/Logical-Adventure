@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6792422427971351267}
+  - component: {fileID: 7659250578001667281}
   m_Layer: 3
   m_Name: drop squire platform
   m_TagString: Untagged
@@ -33,6 +34,19 @@ Transform:
   - {fileID: 5970782039819035301}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7659250578001667281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802524126882525698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcce8b2b1b109f84995f0d4e8eae4ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0.5
 --- !u!1 &2639902598457356654
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +57,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5970782039819035301}
   - component: {fileID: 4623433370801635405}
-  - component: {fileID: 8410030304479905252}
   - component: {fileID: 2029997498458166631}
   m_Layer: 3
   m_Name: Platform
@@ -119,19 +132,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8410030304479905252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2639902598457356654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcce8b2b1b109f84995f0d4e8eae4ba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0.5
 --- !u!61 &2029997498458166631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
     unityEvents:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8410030304479905252}
+        - m_Target: {fileID: 7659250578001667281}
           m_TargetAssemblyTypeName: CDestroyTimer, Assembly-CSharp
           m_MethodName: Drop
           m_Mode: 1
