@@ -526,10 +526,10 @@ MonoBehaviour:
   textLComponent: {fileID: 1318729229}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
-  ru: "\u041F\u0440\u043E\u0441\u0442\u043E \u0434\u043E\u0439\u0434\u0438 \u0434\u043E
-    \u0444\u0438\u043D\u0438\u0448\u0430!"
-  en: Just get to the finish line!
-  tr: "Sadece biti\u015F \xE7izgisine gel!"
+  ru: "\u0413\u043E\u0442\u043E\u0432 \u043A\u043E \u0432\u0442\u043E\u0440\u043E\u0439
+    \u0447\u0430\u0441\u0442\u0438?"
+  en: Are you ready for the second part?
+  tr: "\u0130kinci b\xF6l\xFCme haz\u0131r m\u0131s\u0131n\u0131z?"
   az: 
   be: 
   he: 
@@ -556,7 +556,7 @@ MonoBehaviour:
   hi: 
   changeOnlyFont: 0
   fontNumber: 0
-  uniqueFont: {fileID: 0}
+  uniqueFont: {fileID: 12800000, guid: 47366e9bbff681844903b9e5f4ead978, type: 3}
   additionalText: {fileID: 0}
   textHeight: 20
   processTranslateLabel: 

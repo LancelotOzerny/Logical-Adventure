@@ -416,7 +416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 183}
+  m_AnchoredPosition: {x: 25.000015, y: 158}
   m_SizeDelta: {x: 1029.98, y: 173.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318729229
@@ -477,10 +477,12 @@ MonoBehaviour:
   textLComponent: {fileID: 1318729229}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
-  ru: "\u041F\u0440\u043E\u0441\u0442\u043E \u0434\u043E\u0439\u0434\u0438 \u0434\u043E
-    \u0444\u0438\u043D\u0438\u0448\u0430!"
-  en: Just get to the finish line!
-  tr: "Sadece biti\u015F \xE7izgisine gel!"
+  ru: "\u041A\u0430\u043A \u0434\u0443\u043C\u0430\u0435\u0448\u044C...\n\u0427\u0442\u043E
+    \u044D\u0442\u043E \u0441\u0432\u0435\u0440\u0445\u0443? \u041A\u0430\u043A \u043F\u0440\u043E\u0439\u0442\u0438?"
+  en: 'What do you think...
+
+    what''s on top? How to get through?'
+  tr: "Ne d\xFC\u015F\xFCn\xFCyorsun?..\r\nYukar\u0131dan bu nedir? Nas\u0131l ge\xE7ilir?"
   az: 
   be: 
   he: 
@@ -507,7 +509,7 @@ MonoBehaviour:
   hi: 
   changeOnlyFont: 0
   fontNumber: 0
-  uniqueFont: {fileID: 0}
+  uniqueFont: {fileID: 12800000, guid: 47366e9bbff681844903b9e5f4ead978, type: 3}
   additionalText: {fileID: 0}
   textHeight: 20
   processTranslateLabel: 
