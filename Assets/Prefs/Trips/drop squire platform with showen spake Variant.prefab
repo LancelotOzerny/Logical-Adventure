@@ -74,6 +74,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: drop squire platform with showen spake Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4623433370801635405, guid: 046633a94140fea4c9c5006320b9bef0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623433370801635405, guid: 046633a94140fea4c9c5006320b9bef0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -250789967
+      objectReference: {fileID: 0}
     - target: {fileID: 6792422427971351267, guid: 046633a94140fea4c9c5006320b9bef0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23

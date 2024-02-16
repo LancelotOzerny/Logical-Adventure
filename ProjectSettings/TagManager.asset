@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4044177329
+    locked: 0
+  - name: Trips
+    uniqueID: 3465273639
+    locked: 0
+  - name: Player
+    uniqueID: 1299630433
+    locked: 0
+  - name: FrontGround
+    uniqueID: 1974736001
+    locked: 0
