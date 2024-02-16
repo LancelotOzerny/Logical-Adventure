@@ -4107,6 +4107,38 @@ PrefabInstance:
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 239178034}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CGameParams, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316340476954465930, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3967174530244499564, guid: 7b91495e3f04bde47b26c12787f74a8f, type: 3}
       propertyPath: upEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
