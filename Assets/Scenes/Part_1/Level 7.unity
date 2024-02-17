@@ -1629,6 +1629,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2487718792228424562, guid: 7aa523d19d9d8714dae969f014f02a3d, type: 3}
+      propertyPath: m_Size.x
+      value: 1.129581
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487718792228424562, guid: 7aa523d19d9d8714dae969f014f02a3d, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.06479052
+      objectReference: {fileID: 0}
     - target: {fileID: 7366549084359756473, guid: 7aa523d19d9d8714dae969f014f02a3d, type: 3}
       propertyPath: m_Name
       value: Destroyer
